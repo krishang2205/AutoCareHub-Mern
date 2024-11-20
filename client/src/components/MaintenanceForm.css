@@ -1,0 +1,89 @@
+/* General Form Styling */
+.maintenance-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;  /* Full width within the parent container */
+    max-width: 100%; /* Ensure it does not exceed the parent container */
+    margin: 0 auto; /* Center align the form */
+    box-sizing: border-box; /* Make sure padding is included in width calculation */
+  }
+  
+  /* Form Title */
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Input and Select Styling */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+
+  }
+  
+  .form-control:focus {
+    border: 1px solid #333;
+    outline: none;
+  }
+  
+  /* Submit Button Styling */
+  .btn-submit {
+    padding: 10px 20px;
+    background-color: #3333;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; 
+  }
+  
+  .btn-submit:hover {
+    background-color: #3333;
+  }
+  
+  .btn-submit:active {
+    background-color: #3333;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .maintenance-form {
+      padding: 15px;
+    }
+  
+    .form-title {
+      font-size: 20px;
+    }
+  
+    .form-control {
+      font-size: 14px;
+    }
+  
+    .btn-submit {
+      font-size: 14px;
+    }
+  }
+  
